@@ -9,4 +9,9 @@ public class BadmintonCoach implements Coach {
     public String getDailyWorkout() {
         return "shuttlecock aaaaahahhahahahahahha cock";
     }
+
+    @Override
+    public String getDailyFortune() {
+        return null;
+    }
 }
